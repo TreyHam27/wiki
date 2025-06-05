@@ -1,9 +1,12 @@
 # Downloading Signing Apps to Your Device
 
-::: info
-For Neosign customers, we provide a one click Feather install link, for both Feather default, and idevice Feather, in the email we send containing your cert. It is recommended that you install via these links, since they are presigned with your cert.
 
-You may continue with this guide if you arent a neosign customer or are having trouble installing the app.
+
+
+::: info
+NeoSign customers are provided with a one-click Feather install link in the email containing their certificate. It is highly recommended that you install via our one-click install link because Feather is automatically pre-signed with your certificate.
+
+You may continue with this guide if you aren’t a NeoSign customer or if you need any extra help.
 :::
 
 ## Prerequisites
@@ -18,7 +21,7 @@ If you don't know which one to install and sideload, choose Feather default.
 :::
 
 ## Sideload Using an Online Signer
-1. In the iOS Files app, unzip your development certificate. You may see different files, such as development, distribution, etc. You may choose any for this process, but make sure to use the correct `.p12` with its corresponding `.mobileprovision`
+1. In the iOS Files app, unzip your development certificate. You may see different files, such as development, distribution, etc. You may choose any for this process, but make sure to use the correct `.p12` with its corresponding `.mobileprovision`.
 2. Navigate to [https://sign.neosign.dev](https://sign.neosign.dev/). Select the IPA file of your signer from prerequisites, or another signer if you wish (there won't be documentation from us about it).
 3. Select your `.p12` certificate and provisioning profile from the same folder. Enter the password found in `password.txt`.
 4. Select `Sign IPA`, then select "Install".
